@@ -3,8 +3,6 @@ import { normalizeColor } from '@/utils/normalize-color';
 import { route, routeOperation, TypedNextResponse } from 'next-rest-framework';
 import { z } from 'zod';
 
-export const runtime = 'edge';
-
 const DEFAULT_WIDTH = 640;
 const DEFAULT_HEIGHT = 360;
 const DEFAULT_BG = '#e5e7eb';
