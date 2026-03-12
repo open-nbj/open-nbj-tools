@@ -3,8 +3,8 @@
 import { useMemo, useState } from 'react';
 import { HexColorPicker } from 'react-colorful';
 import { cn } from '@/lib/utils';
-import type { ButtonProps } from '@/components/ui/button';
 import { Button } from '@/components/ui/button';
+import { Button as ButtonPrimitive } from '@base-ui/react/button';
 import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover';
 import { Input } from '@/components/ui/input';
 
@@ -23,7 +23,7 @@ function ColorPicker({
   name,
   className,
   ...props
-}: Omit<ButtonProps, 'value' | 'onChange' | 'onBlur'> & ColorPickerProps) {
+}: Omit<ButtonPrimitive.Props, 'value' | 'onChange' | 'onBlur'> & ColorPickerProps) {
   const [open, setOpen] = useState(false);
 
   const parsedValue = useMemo(() => {
