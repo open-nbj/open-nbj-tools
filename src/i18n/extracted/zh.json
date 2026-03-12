@@ -1,0 +1,222 @@
+{
+  "clipboard.copied": {
+    "defaultMessage": "复制",
+    "description": "Clipboard button state after a successful copy action."
+  },
+  "clipboard.copyFailed": {
+    "defaultMessage": "复制失败",
+    "description": "Clipboard button state after a failed copy action."
+  },
+  "clipboard.copyShareLink": {
+    "defaultMessage": "Copy share link",
+    "description": "Button label for copying the room share link."
+  },
+  "language.toggle": {
+    "defaultMessage": "Change language",
+    "description": "Label and tooltip for the language selection dropdown trigger."
+  },
+  "qrGenerator.color.background": {
+    "defaultMessage": "Background",
+    "description": "Label for the background color picker."
+  },
+  "qrGenerator.color.foreground": {
+    "defaultMessage": "Foreground",
+    "description": "Label for the foreground color picker."
+  },
+  "qrGenerator.contact.addressLabel": {
+    "defaultMessage": "Address",
+    "description": "Label for the contact address section."
+  },
+  "qrGenerator.contact.cityPlaceholder": {
+    "defaultMessage": "City",
+    "description": "Placeholder for the contact city input."
+  },
+  "qrGenerator.contact.countryPlaceholder": {
+    "defaultMessage": "Country",
+    "description": "Placeholder for the contact country input."
+  },
+  "qrGenerator.contact.emailLabel": {
+    "defaultMessage": "Email",
+    "description": "Label for the contact email input."
+  },
+  "qrGenerator.contact.emailPlaceholder": {
+    "defaultMessage": "test@example.com",
+    "description": "Placeholder for the contact email input."
+  },
+  "qrGenerator.contact.firstNamePlaceholder": {
+    "defaultMessage": "First name",
+    "description": "Placeholder for the contact first name input."
+  },
+  "qrGenerator.contact.lastNamePlaceholder": {
+    "defaultMessage": "Last name",
+    "description": "Placeholder for the contact last name input."
+  },
+  "qrGenerator.contact.nameLabel": {
+    "defaultMessage": "Name",
+    "description": "Label for the contact name section."
+  },
+  "qrGenerator.contact.organizationLabel": {
+    "defaultMessage": "Organization",
+    "description": "Label for the contact organization input."
+  },
+  "qrGenerator.contact.organizationPlaceholder": {
+    "defaultMessage": "Company",
+    "description": "Placeholder for the contact organization input."
+  },
+  "qrGenerator.contact.phoneLabel": {
+    "defaultMessage": "Phone",
+    "description": "Label for the contact phone number input."
+  },
+  "qrGenerator.contact.phonePlaceholder": {
+    "defaultMessage": "+123456789",
+    "description": "Placeholder for the contact phone number input."
+  },
+  "qrGenerator.contact.postalCodePlaceholder": {
+    "defaultMessage": "Postal code",
+    "description": "Placeholder for the contact postal code input."
+  },
+  "qrGenerator.contact.regionPlaceholder": {
+    "defaultMessage": "State / Region",
+    "description": "Placeholder for the contact state/region input."
+  },
+  "qrGenerator.contact.reset": {
+    "defaultMessage": "Reset contact",
+    "description": "Button label for resetting the contact form."
+  },
+  "qrGenerator.contact.status.incomplete": {
+    "defaultMessage": "Enter a name to generate.",
+    "description": "Status text shown when contact inputs are incomplete."
+  },
+  "qrGenerator.contact.streetPlaceholder": {
+    "defaultMessage": "Street",
+    "description": "Placeholder for the contact street input."
+  },
+  "qrGenerator.contact.urlLabel": {
+    "defaultMessage": "URL",
+    "description": "Label for the contact URL input."
+  },
+  "qrGenerator.contact.urlPlaceholder": {
+    "defaultMessage": "https://example.com",
+    "description": "Placeholder for the contact URL input."
+  },
+  "qrGenerator.create.description": {
+    "defaultMessage": "This page uses the {endpoint} endpoint to render the image.",
+    "description": "Description text explaining how the QR image is rendered."
+  },
+  "qrGenerator.create.title": {
+    "defaultMessage": "Create QR code",
+    "description": "Title for the QR generator configuration card."
+  },
+  "qrGenerator.preview.alt": {
+    "defaultMessage": "Generated QR code",
+    "description": "Alt text for the generated QR code image."
+  },
+  "qrGenerator.preview.download": {
+    "defaultMessage": "Download SVG",
+    "description": "Button label for downloading the generated QR code image."
+  },
+  "qrGenerator.preview.empty": {
+    "defaultMessage": "No QR code generated",
+    "description": "Placeholder text shown when there is no QR code to preview."
+  },
+  "qrGenerator.preview.open": {
+    "defaultMessage": "Open",
+    "description": "Button label for opening the generated QR code in a new tab."
+  },
+  "qrGenerator.preview.title": {
+    "defaultMessage": "Live preview",
+    "description": "Title for the QR code live preview card."
+  },
+  "qrGenerator.status.ready": {
+    "defaultMessage": "Ready to generate.",
+    "description": "Status text shown when QR input is valid."
+  },
+  "qrGenerator.tabs.contact": {
+    "defaultMessage": "Contact",
+    "description": "Tab label for generating a contact (vCard) QR code."
+  },
+  "qrGenerator.tabs.text": {
+    "defaultMessage": "Text",
+    "description": "Tab label for generating a QR code from text or a URL."
+  },
+  "qrGenerator.tabs.wifi": {
+    "defaultMessage": "WiFi",
+    "description": "Tab label for generating a WiFi QR code."
+  },
+  "qrGenerator.text.characterCount": {
+    "defaultMessage": "{count, plural, one {# character} other {# characters}}",
+    "description": "Character count for the text/URL input."
+  },
+  "qrGenerator.text.clear": {
+    "defaultMessage": "Clear text",
+    "description": "Button label for clearing the text/URL input."
+  },
+  "qrGenerator.text.label": {
+    "defaultMessage": "Text or URL",
+    "description": "Label for the text/URL input textarea."
+  },
+  "qrGenerator.text.placeholder": {
+    "defaultMessage": "Paste a URL or type any text",
+    "description": "Placeholder for the text/URL input textarea."
+  },
+  "qrGenerator.wifi.hiddenLabel": {
+    "defaultMessage": "Hidden network",
+    "description": "Label for the hidden network checkbox."
+  },
+  "qrGenerator.wifi.passwordLabel": {
+    "defaultMessage": "Password",
+    "description": "Label for the WiFi password input."
+  },
+  "qrGenerator.wifi.passwordPlaceholder": {
+    "defaultMessage": "Network password",
+    "description": "Placeholder for the WiFi password input."
+  },
+  "qrGenerator.wifi.reset": {
+    "defaultMessage": "Reset WiFi",
+    "description": "Button label for resetting the WiFi form."
+  },
+  "qrGenerator.wifi.security.open": {
+    "defaultMessage": "Open",
+    "description": "WiFi security option label for open networks."
+  },
+  "qrGenerator.wifi.security.wep": {
+    "defaultMessage": "WEP",
+    "description": "WiFi security option label for WEP."
+  },
+  "qrGenerator.wifi.security.wpa": {
+    "defaultMessage": "WPA/WPA2",
+    "description": "WiFi security option label for WPA/WPA2."
+  },
+  "qrGenerator.wifi.securityLabel": {
+    "defaultMessage": "Security",
+    "description": "Label for the WiFi security selection."
+  },
+  "qrGenerator.wifi.ssidLabel": {
+    "defaultMessage": "Network name (SSID)",
+    "description": "Label for the WiFi SSID input."
+  },
+  "qrGenerator.wifi.ssidPlaceholder": {
+    "defaultMessage": "Network name",
+    "description": "Placeholder for the WiFi SSID input."
+  },
+  "qrGenerator.wifi.status.incomplete": {
+    "defaultMessage": "Enter SSID and password to generate.",
+    "description": "Status text shown when WiFi inputs are incomplete."
+  },
+  "qrcode.alt": {
+    "defaultMessage": "QR Code",
+    "description": "Alt text for the QR code image."
+  },
+  "theme.dark": {
+    "defaultMessage": "黑色",
+    "description": "Theme option label for dark mode."
+  },
+  "theme.light": {
+    "defaultMessage": "亮色",
+    "description": "Theme option label for light mode."
+  },
+  "theme.system": {
+    "defaultMessage": "System",
+    "description": "Theme option label for following the system setting."
+  }
+}
