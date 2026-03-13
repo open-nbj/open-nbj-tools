@@ -1,6 +1,8 @@
 import { promises as fs } from 'node:fs';
 import path from 'node:path';
 
+export const runtime = 'nodejs';
+
 const TOOL_DIR_EXCLUSIONS = new Set(['api', '_next']);
 
 export type ToolInfo = {

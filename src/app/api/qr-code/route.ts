@@ -3,7 +3,7 @@ import { route, routeOperation, TypedNextResponse } from 'next-rest-framework';
 import { z } from 'zod';
 import { normalizeColor } from '@/utils/normalize-color';
 
-export const runtime = 'edge';
+export const runtime = 'nodejs';
 
 const DEFAULT_FOREGROUND = '#020617';
 const DEFAULT_BACKGROUND = '#ffffff';
